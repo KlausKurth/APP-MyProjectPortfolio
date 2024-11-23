@@ -1,5 +1,6 @@
 package com.techkurth.app_myprojectportfolio
 
+import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -28,6 +29,18 @@ class MainActivity : AppCompatActivity() {
         val circle = RoundedBitmapDrawableFactory.create(resources,imgprofile)
         circle.isCircular = true
         binding.imgProfile.setImageDrawable(circle)
+
+
+        binding.btProjects.setOnClickListener() {
+            val intent = Intent(this, Project::class.java)
+            startActivity(intent)
+        }
+
+        binding.btContacts.setOnClickListener(){
+            val intent = Intent(this,Contact::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
