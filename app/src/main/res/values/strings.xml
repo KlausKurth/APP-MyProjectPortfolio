@@ -2,27 +2,35 @@
     <string name="app_name">APP-MyProjectPortfolio</string>
     <string name="txt_username">Klaus Kurth</string>
     <string name="txt_description">
-        Leonardo Campos é um desenvolvedor Android sênior com uma paixão inigualável pela criação de experiências digitais inovadoras. Com mais de uma década de experiência no desenvolvimento de aplicativos móveis, ele traz consigo um profundo entendimento do ecossistema Android e uma dedicação incansável à excelência técnica.<br /><br /><br />
+        Klaus Kurth é um desenvolvedor e arquiteto de soluções especializado em DevOps, com uma paixão inigualável pela criação de experiências digitais inovadoras e soluções tecnológicas eficientes.<br /><br /><br />
+
         \n\n\n
         <b>Habilidades</b><br /><br />
         \n\n\n
-        <b>Desenvolvimento Android:</b> Especialista em Kotlin, Leonardo possui uma profunda compreensão do desenvolvimento Android nativo, entregando aplicativos robustos e eficientes.<br /><br />
+
+        <b>Desenvolvimento DevOps:</b> Experiência no desenvolvimento de soluções automatizadas, aplicações REST e Web utilizando tecnologias como Python, Django, Shell Script, Docker, Ansible, Terraform e AWS.<br /><br />
         \n\n\n
-        <b>Arquitetura de Software:</b> Experiente na implementação de arquiteturas modernas como MVVM, Clean Architecture e Jetpack Compose, garantindo código modular e de fácil manutenção.<br /><br />
+
+        <b>Arquitetura de Software:</b> Expertise em controle de versão com GIT e estruturação de pipelines de desenvolvimento com Docker, garantindo padrões seguros e automatizados para o deployment de aplicações.<br /><br />
         \n\n\n
-        <b>Testes Automatizados:</b> Firme defensor da qualidade do software, Leonardo implementa testes automatizados de unidade e UI para garantir a estabilidade e a confiabilidade de cada aplicativo.<br /><br />
+
+        <b>Mentoria e Liderança Técnica:</b> Klaus Kurth se destaca como líder técnico, compartilhando conhecimentos e orientando equipes para alcançarem alta performance e melhores resultados.<br /><br />
         \n\n\n
-        <b>Mentoria e Liderança Técnica:</b> Além de suas habilidades técnicas, Leonardo destaca-se como mentor, compartilhando conhecimento e orientando equipes para alcançarem seu melhor desempenho.
+
+        <b>Hobbies Técnicos</b><br /><br />
+        \n\n\n
+
+        <b>Interesses em Tecnologias:</b> Klaus possui uma paixão por tecnologia que transborda para seus hobbies, como o desenvolvimento de jogos com a engine Unity, onde aprofunda conhecimentos em Programação Orientada a Objetos (POO) com a linguagem C#. Ele também dedica seu tempo livre ao aprendizado e aprimoramento no desenvolvimento de aplicativos Android, utilizando o Android Studio e fortalecendo suas habilidades em Kotlin.
     </string>
     <string name="txt_projects">Projects</string>
     <string name="txt_contact">Contact</string>
     <string name="title_toolbar_contact">Contact</string>
     <string name="title_toolbar_project">Projects</string>
-    <string name="txt_phone">+5511999990000</string>
+    <string name="txt_phone">+5511963301797</string>
     <string name="txt_email">contato@contato.com.br</string>
-    <string name="txt_project_01">Project 1</string>
-    <string name="txt_project_02">Project 2</string>
-    <string name="txt_project_03">Project 3</string>
+    <string name="txt_project_01">OracleGoldenGate Monitor</string>
+    <string name="txt_project_02">API Rest Docker</string>
+    <string name="txt_project_03">API Web Django</string>
     <string name="txt_bt_project">Project Details</string>
 
 </resources>

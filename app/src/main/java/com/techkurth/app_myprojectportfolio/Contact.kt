@@ -40,18 +40,20 @@ class Contact : AppCompatActivity() {
 
     private fun openWhatsApp(){
 
-        val numeberPhone = binding.txtPhone
-        val uri = Uri.parse("https://api.whatsapp.com/send?phone=$numeberPhone")
+        // Recupere o número de telefone do arquivo de strings
+        val numberPhone = getString(R.string.txt_phone)
+        val uri = Uri.parse("https://api.whatsapp.com/send?phone=$numberPhone")
 
-        val intent = Intent(Intent.ACTION_VIEW,uri)
-        startActivity(intent)
-
-        if (numeberPhone.equals(numeberPhone)){
+        // Verifique se o WhatsApp está instalado e abra o app ou redirecione para a Play Store
+        try {
+            val intent = Intent(Intent.ACTION_VIEW, uri)
             startActivity(intent)
-        }else{
-            val playstoreIntent = Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store/apps/details?id=com.whatsapp"))
-            startActivity(playstoreIntent)
-
+        } catch (e: Exception) {
+            val playStoreIntent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse("https://play.google.com/store/apps/details?id=com.whatsapp")
+            )
+            startActivity(playStoreIntent)
         }
 
     }
